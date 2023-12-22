@@ -1,0 +1,17 @@
+Why need LinkedList ?
+Linked list is collection of nodes of variable length .
+
+In array you can not change the size of the array at the run time but likedList you can dynamically chnaging the size .
+
+Likedlist is collection of nodes where nodes contains the data field and the reference to the next node , where it not in contigous manner unlike the array.
+
+Data field is what we want to store the data and reference to next node .
+
+
+Types of LinkedList
+1.Singly LL 
+2.Doubly LL
+3.Cirular LL
+4.Circular doubly LL 
+
+
