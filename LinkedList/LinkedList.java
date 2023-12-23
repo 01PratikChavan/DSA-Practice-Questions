@@ -17,6 +17,21 @@ public class LinkedList {
      public static Node tail;
      public static int size;
 
+     public static Node getFirst(){
+          if(head==null){
+               System.out.println("Empty LinkedList");
+               return null;
+          }
+          return head;
+     }
+     public static Node getLast(){
+          if(tail==null){
+                 System.out.println("Empty LinkedList");
+               return null;
+          }
+          return null;
+     }
+
      public static void addFirst(int data) {
 
           Node newNode = new Node(data, null);
